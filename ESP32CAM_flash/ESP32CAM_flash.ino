@@ -20,7 +20,7 @@ void setup() //Estructura principal
 void loop() //Función bucle
 {
   digitalWrite (FLASH, HIGH); //Encender led. 2 parámetros, pin a controlar, estado (0,LOW,FALSE,1,HIGH,TRUE)
-  delay (2000); //Espera de 2 segundos
+  delay (6000); //Espera de 6 segundos
   digitalWrite (FLASH, LOW); //Apagar led
-  delay (2000); //Espera de 2 segundos
+  delay (6000); //Espera de 6 segundos
 } //Fin de void loop()
